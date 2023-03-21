@@ -1,0 +1,208 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* Heading */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  /* padding: 3% 15% 7%; */
+  padding:  7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding-bottom: 3.125rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Title */
+
+ #title > .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image{
+  width: 60%;
+  padding-top: 2%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+
+.mediaScreenCheck{
+  padding-bottom:40rem;
+}
+
+
+/* Download Button */
+
+.Download-Button{
+  margin: 0.5rem;
+}
+
+
+/* Features */
+
+#features{
+  color: #8f8f8f;
+  position: relative;
+  z-index: 10;
+}
+
+.features-title{
+  font-size: 1.5rem;
+}
+
+.fa-heart,.fa-bullseye,.fa-circle-check{
+  color: #ef8172;
+  margin: 0 0 1rem 0;
+}
+
+.fa-heart:hover,.fa-bullseye:hover,.fa-circle-check:hover{
+  color: #ff4c68;
+}
+
+.features-box{
+  font-size: 1.2rem;
+  padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+  position: relative;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-images{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px ;
+}
+
+
+/* Pricing */
+
+
+#pricing{
+  padding: 100px;
+}
+
+.signup-Chihuahua,.signup-Labrador{
+  margin-top:2.5rem;
+}
+
+.price-title{
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+ .price-box{
+  padding: 2%;
+}
+
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+  padding: 10% 15%;
+}
+
+/* footer */
+
+#footer{
+  padding: 7%;
+}
+
+.linksocial{
+  margin: 1rem 1rem 2rem;
+  color:#000;
+}
+
+/* Media Query Breakpoint */
+
+@media (max-width:991px){
+
+  #title{
+  text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  .mediaScreenCheck{
+    padding-bottom:0;
+  }
+
+}
